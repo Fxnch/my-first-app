@@ -17,7 +17,7 @@ export default function Home() {
 
       <button
         onClick={() => setCount(count + 1)}
-        className="mt-6 rounded-xl bg-black px-6 py-3 text-white hover:opacity-80"
+        className="mt-6 rounded-xl bg-blue px-6 py-3 text-white hover:opacity-80"
       >
         Click Me
       </button>
