@@ -6,7 +6,7 @@ export default function Home() {
   const [count, setCount] = useState(0)
 
   return (
-    <main className="min-h-screen flex flex-col items-center justify-center">
+    <main className="min-h-screen flex flex-col items-center justify-center bg-blue-500 text-white">
       <h1 className="text-5xl font-bold">
         My First Web App
       </h1>
@@ -17,7 +17,7 @@ export default function Home() {
 
       <button
         onClick={() => setCount(count + 1)}
-        className="mt-6 rounded-xl bg-blue-509 px-6 py-3 text-white hover:opacity-80"
+        className="mt-6 rounded-xl bg-black px-6 py-3 text-white hover:opacity-80"
       >
         Click Me
       </button>
